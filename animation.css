@@ -132,3 +132,8 @@ body{
     left:0;
     
 }
+@media (max-width: 768px) {
+  .sidebar_menu {
+    width: min(300px, 85vw);
+  }
+}
